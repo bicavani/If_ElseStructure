@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ex3</title>
+</head>
+<body>
+ <script>
+     let number1 = parseInt(prompt("number1 : ", ''));
+     let number2 = parseInt(prompt("number2 : ", ''));
+     let number3 = parseInt(prompt("number3 : ", ''));
+     let max = number1;
+     let ismax = max < number2;
+     if (ismax)
+         max = number2;
+     ismax = max < number3;
+     if (ismax)
+         max = number3;
+     document.write('max = ' + max);
+ </script>
+</body>
+</html>
